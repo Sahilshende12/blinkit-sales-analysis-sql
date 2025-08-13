@@ -79,3 +79,19 @@ SELECT
 FROM blinkit_data
 GROUP BY Outlet_Size
 ORDER BY Total_Sales DESC;
+
+
+--
+
+## 📌 Key Insights
+- **Low Fat** and **Regular** items have distinct sales trends across different outlets.
+- **Larger outlets** generally contribute more to total sales.
+- Certain **item types dominate revenue share**.
+- **Outlet location** and **establishment year** significantly impact sales performance.
+
+---
+
+## 📜 How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/blinkit-sql-analysis.git
