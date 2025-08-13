@@ -57,7 +57,6 @@ By cleaning the data and applying various aggregations, this project uncovers ke
 
 ## 🗂️ Example Queries
 
-```sql
 -- 1. Data Cleaning for Item_Fat_Content
 UPDATE blinkit_data
 SET Item_Fat_Content = 
@@ -80,8 +79,9 @@ FROM blinkit_data
 GROUP BY Outlet_Size
 ORDER BY Total_Sales DESC;
 
+-- Exit SQL session
+EXIT;
 
---
 
 ## 📌 Key Insights
 - **Low Fat** and **Regular** items have distinct sales trends across different outlets.
@@ -95,3 +95,18 @@ ORDER BY Total_Sales DESC;
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/blinkit-sql-analysis.git
+
+## 📜 How to Use
+1. Import the dataset into your SQL environment.
+2. Run the provided queries in `blinkit_analysis.sql`.
+3. *(Optional)* Connect the SQL output to **Power BI** for visual dashboards.
+
+---
+
+## 🏷️ Author
+**Sahil Shende**  
+💼 Data Analyst | SQL | Power BI | Tableau | Excel  
+📧 sahilshende18@gmail.com
+🌐 [LinkedIn Profile](linkedin.com/in/sahilshendeofficial)
+
+
