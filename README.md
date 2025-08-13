@@ -7,9 +7,8 @@ By cleaning the data and applying various aggregations, this project uncovers ke
 ---
 
 ## 🛠️ Tech Stack
-- **Database:** SQL Server
+- **Database:** MYSQL
 - **Language:** SQL
-- **Tools Used:** SQL Server Management Studio (SSMS), Power BI (for visualization)
 - **Dataset:** Blinkit sales dataset
 
 ---
